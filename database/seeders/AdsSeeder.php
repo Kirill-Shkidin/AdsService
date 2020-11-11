@@ -15,7 +15,7 @@ class AdsSeeder extends Seeder
    */
   public function run()
   {
-//    dd(Ad::factory()->times(1)->make()->toArray());
+//    dd(Ad::factory()->count(1)->make()->toArray());
     DB::table('ads')->insert(Ad::factory()->count(20)->make()->toArray());
   }
 

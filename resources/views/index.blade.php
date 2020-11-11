@@ -18,8 +18,8 @@
 
             <a href="{{ route('sort', 'price_up') }}" class=" btn bg-success">По возрастанию цены</a>
             <a href="{{ route('sort', 'price_down') }}" class=" btn bg-success">По убыванию цены</a>
-            <a href="{{ route('sort', 'data_up') }}" class=" btn bg-success">По возрастанию даты</a>
-            <a href="{{ route('sort', 'data_down') }}" class=" btn bg-success">По убыванию даты</a>
+            <a href="{{ route('sort', 'date_up') }}" class=" btn bg-success">По возрастанию даты</a>
+            <a href="{{ route('sort', 'date_down') }}" class=" btn bg-success">По убыванию даты</a>
           </li>
         </div>
 
